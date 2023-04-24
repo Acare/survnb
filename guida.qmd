@@ -1,0 +1,204 @@
+---
+title: "Guida"
+format: html
+execute: 
+  eval: false
+---
+
+## IT & PROGRAMMING
+
+### The Computer
+
+### Linux & Bash
+
+[Bash reference](https://www.gnu.org/software/bash/manual/bash.html)
+
+#### Basic commands
+
+```{bash}
+pwd
+```
+
+```{bash}
+cd ..
+```
+
+```{bash}
+clear
+```
+
+```{bash}
+history
+```
+
+```{bash}
+man cd
+```
+
+
+#### Work with directories
+
+```{bash}
+ls
+```
+
+```{bash}
+mkdir folder1
+```
+
+```{bash}
+rm folder1/
+```
+
+```{bash}
+mv folder1 folder2
+```
+
+```{bash}
+cp folder1 folder3
+```
+
+#### Work with files
+
+```{bash}
+touch file.txt
+```
+
+```{bash}
+nano file.txt
+```
+
+Vim, emacs, etc...
+
+
+#### Checking resources
+
+```{bash}
+top
+```
+
+or `htop`
+
+```{bash}
+df -h
+```
+
+```{bash}
+du -h
+```
+
+
+
+
+
+
+
+
+
+### A programming language: R
+
+### A database management system: PostgreSQL
+
+[PostgreSQL documentation](https://www.postgresql.org/docs/14/index.html)
+
+#### Handling tables
+
+```{sql}
+CREATE TABLE tab (
+  col1 VARCHAR(200),
+  col2 TIMESTAMP DEFAULT NOW(),
+  col3 TEXT,
+  col4 REAL,
+  col5 INTEGER,
+  col6 BOOLEAN
+)
+```
+
+```{sql}
+INSERT INTO tab (col1, col4, col5, col6) 
+VALUES ('abc', 1.23, 6, TRUE)
+```
+
+```{sql}
+ALTER TABLE tab
+```
+
+
+```{sql}
+UPDATE tab
+SET col5 = 3
+WHERE col1 = 'abc'
+```
+
+#### Perform queries
+
+```{sql}
+SELECT col2
+FROM tab
+WHERE col1 = 'abc'
+```
+
+
+
+## WEB TECHNOLOGIES
+
+[MDN portal](https://developer.mozilla.org/en-US/)
+
+### How the Web works
+
+### HTML
+
+```{html}
+<h1>This is a first level heading</h1>
+<p>This is a paragraph</p>
+```
+
+
+### CSS
+
+### JavaScript
+
+### HTTP and APIs
+
+
+## REPRODUCIBILITY
+
+### Git
+
+[Git reference](https://git-scm.com/docs)
+
+[Git book](https://git-scm.com/book/en/v2)
+
+```{bash}
+git init
+```
+
+```{bash}
+git status
+```
+
+```{bash}
+git add -A
+```
+
+```{bash}
+git commit -m 'A commit message.'
+```
+
+```{bash}
+git log
+```
+
+
+
+### Docker
+
+[Docker documentation](https://docs.docker.com/)
+
+### renv/rang
+
+```{r}
+#| echo: false
+2 * 2
+```
+
