@@ -32,9 +32,8 @@ history
 ```
 
 ```{bash}
-man cd
+man pwd
 ```
-
 
 #### Work with directories
 
@@ -70,7 +69,6 @@ nano file.txt
 
 Vim, emacs, etc...
 
-
 #### Checking resources
 
 ```{bash}
@@ -86,14 +84,6 @@ df -h
 ```{bash}
 du -h
 ```
-
-
-
-
-
-
-
-
 
 ### A programming language: R
 
@@ -123,7 +113,6 @@ VALUES ('abc', 1.23, 6, TRUE)
 ALTER TABLE tab
 ```
 
-
 ```{sql}
 UPDATE tab
 SET col5 = 3
@@ -138,8 +127,6 @@ FROM tab
 WHERE col1 = 'abc'
 ```
 
-
-
 ## WEB TECHNOLOGIES
 
 [MDN portal](https://developer.mozilla.org/en-US/)
@@ -153,13 +140,11 @@ WHERE col1 = 'abc'
 <p>This is a paragraph</p>
 ```
 
-
 ### CSS
 
 ### JavaScript
 
 ### HTTP and APIs
-
 
 ## REPRODUCIBILITY
 
@@ -189,8 +174,6 @@ git commit -m 'A commit message.'
 git log
 ```
 
-
-
 ### Docker
 
 [Docker documentation](https://docs.docker.com/)
@@ -201,4 +184,3 @@ git log
 #| echo: false
 2 * 2
 ```
-
